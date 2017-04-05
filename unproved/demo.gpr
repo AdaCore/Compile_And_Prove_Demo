@@ -1,0 +1,15 @@
+project Demo is
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-gnatwa");
+   end Compiler;
+
+   package Prove is
+      for Switches use ("--codepeer=on", "--level=2", "-j0");
+   end Prove;
+
+   package Builder is
+      for Global_Configuration_Pragmas use "demo.adc";
+   end Builder;
+
+end Demo;
