@@ -1,0 +1,6 @@
+name: Hello World
+description: >
+ This shows basic use of the standard command line facilities to print a "hello,
+ world" type of message on the standard output. In the initial version, the
+ precondition of a call to a standard function may be violated. This must be
+ fixed to prove the example.
