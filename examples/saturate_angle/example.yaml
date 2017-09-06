@@ -1,0 +1,6 @@
+name: Saturate Angle
+description: >
+ This shows basic use of generics in Ada, with a generic function being
+ instantiated for two scalar values, and a contract on the generic function.
+ In the initial version, the compiler rejects mistyped literals (there is no
+ implicit conversion between integers and floats in Ada).

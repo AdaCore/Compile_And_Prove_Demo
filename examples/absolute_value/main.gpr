@@ -1,4 +1,4 @@
-project Demo is
+project Main is
 
    package Compiler is
       for Default_Switches ("Ada") use ("-gnatwa");
@@ -9,7 +9,7 @@ project Demo is
    end Prove;
 
    package Builder is
-      for Global_Configuration_Pragmas use "demo.adc";
+      for Global_Configuration_Pragmas use "main.adc";
    end Builder;
 
-end Demo;
+end Main;

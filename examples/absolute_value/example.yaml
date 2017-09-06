@@ -1,0 +1,5 @@
+name: Absolute Value
+description: >
+ This shows basic use of Ada operators, statements and contracts. In the
+ version that compiles, the postcondition of the function cannot be proved and
+ a run-time check might fail. A precondition is required to fix both issues.

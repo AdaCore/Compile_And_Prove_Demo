@@ -1,0 +1,6 @@
+name: Strings
+description: >
+ This shows basic use of arrays and strings in Ada, with a rich postcondition
+ quantifying over the content of strings, and a loop invariant stating the same
+ property during loop iteration. In the compilable version, the example cannot
+ be proved due to a subtle off-by-one error.
