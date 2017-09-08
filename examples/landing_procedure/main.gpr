@@ -5,7 +5,7 @@ project Main is
    end Compiler;
 
    package Prove is
-      for Switches use ("--codepeer=on", "--level=2", "-j0");
+      for Switches use ("--level=2", "-j0");
    end Prove;
 
    package Builder is
