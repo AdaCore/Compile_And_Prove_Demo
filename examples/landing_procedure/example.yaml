@@ -1,6 +1,6 @@
 name: Landing Procedure
 description: >
- This shows basic use of object orientation in Ada, with an interface type
+ This shows basic use of object orientation in SPARK, with an interface type
  being derived into a tagged type. In the initial version, the compiler rejects
  a derived type that fails to implement all abstract operations from its parent
  interface. In the compilable version, the safety of behavioral subtyping

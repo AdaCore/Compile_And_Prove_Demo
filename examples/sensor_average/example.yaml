@@ -1,6 +1,6 @@
 name: Sensor Average
 description: >
- This shows basic use of fixed-point types in Ada (real types with a fixed
+ This shows basic use of fixed-point types in SPARK (real types with a fixed
  precision contrary to floating-point types) and variables with memory-mapped
  addresses for sensors. In the initial version, the postcondition of a local
  function cannot be proved due to missing parentheses in an expression.

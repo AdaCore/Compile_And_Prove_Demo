@@ -1,6 +1,6 @@
 name: Bitwise Swap
 description: >
- This shows basic use of Ada modular types (the unsigned of C/C++) with bitwise
+ This shows basic use of SPARK modular types (the unsigned of C/C++) with bitwise
  operators, and a contract relating input and output values of a procedure. In
  the initial version, the compiler points to missing tokens to make the code
  valid.
