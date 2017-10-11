@@ -1,8 +1,7 @@
 package body Strings is
 
    function Longest_Common_Prefix (X, Y : Str) return Natural is
-      --  Change the initialization value to 0 below to compile
-      Length     : Natural := -1;
+      Length     : Natural := 0;
       Max_Length : constant Natural := Natural'Min(X'Length, Y'Length);
    begin
       --  Change to strict inequality below to prove

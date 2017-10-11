@@ -7,8 +7,7 @@ is
 begin
    if X > 0 then
       return X;
---  Uncoment the following lines to compile
--- else
---    return -X;
+   else
+      return -X;
    end if;
 end Absolute_Value;

@@ -1,6 +1,5 @@
 with Ada.Command_Line;
---  Fix name of standard unit below to compile
-with Ada.TextIO;
+with Ada.Text_IO;
 
 procedure Hello_World is
    You : constant String :=

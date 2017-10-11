@@ -17,8 +17,7 @@ package Communications is
 
       entry Get_Message (N : out Integer);
 
---  Uncomment the following line to compile
---   private
+   private
       Messages : Message_Array := (others => 0);
       Next_In  : Message_Index := Message_Index'First;
       Next_Out : Message_Index := Message_Index'First;

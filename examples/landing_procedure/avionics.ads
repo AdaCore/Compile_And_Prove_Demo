@@ -14,8 +14,7 @@ package Avionics is
 
    function On_Ground (J : Jet) return Boolean;
    function Doors_Opened (J : Jet) return Boolean;
-   --  Uncomment the following line to compile
---   function Speed (J : Jet) return Float;
+   function Speed (J : Jet) return Float;
    function Pressurization (J : Jet) return Boolean;
 
    procedure Open_Doors (Self : Jet) with
