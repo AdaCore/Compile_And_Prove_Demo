@@ -20,7 +20,6 @@ package body Sensor_Average is
       T1 : constant Temperature := T_Front;
       T2 : constant Temperature := T_Rear;
    begin
-      --  Fix call below to compile without warnings
       Temp := Average (T1, T2);
    end Get_Temperature;
 
