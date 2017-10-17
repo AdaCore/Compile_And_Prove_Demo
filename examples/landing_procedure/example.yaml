@@ -1,11 +1,9 @@
 name: Landing Procedure
 description: >
  This shows basic use of object orientation in SPARK, with an interface type
- being derived into a tagged type. In the initial version, the compiler rejects
- a derived type that fails to implement all abstract operations from its parent
- interface. In the compilable version, the safety of behavioral subtyping
- (weakening of preconditions and strengthening of postconditions) between the
- parent interface and the derived type cannot be proved. In the proved version,
- behavioral subtyping ensures that a dispatching call to the procedure with the
- contract satisfies the precondition of the call, whatever the dynamic type of
- the object.
+ being derived into a tagged type. In the initial version, the safety of
+ behavioral subtyping (weakening of preconditions and strengthening of
+ postconditions) between the parent interface and the derived type cannot be
+ proved. In the proved version, behavioral subtyping ensures that a
+ dispatching call to the procedure satisfies the precondition of the call,
+ whatever the dynamic type of the object.

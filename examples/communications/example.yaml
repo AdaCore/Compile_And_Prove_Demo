@@ -1,7 +1,5 @@
 name: Communications
 description: >
  This shows basic use of a protected object to communicate between two tasks.
- In the initial version, the compiler rejects a declaration of the protected
- object that does not hide its components. In the compilable version, the
- safety of concurrent accesses to a global variable cannot be proved between
- the tasks.
+ In the initial version, two tasks may access concurrently a global variable
+ without adequate synchronization.
