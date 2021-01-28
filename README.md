@@ -14,6 +14,13 @@ The initial version contains either direct instructions on how to make the
 example compilable and provable, or hints on what to modify. Each sub-directory
 contains a Makefile with entries to compile and prove all examples.
 
+IMPORTANT: Please note that this project exists as part of a blog entry,
+article, or other similar material by AdaCore. It is provided for
+convenient access to the software described therein. As such, it is not
+updated regularly and may, over time, become inconsistent with the
+latest versions of any tools and libraries it utilizes (for example, the
+Ada Drivers Library).
+
 The examples are in increasing order of difficulty:
 
 ## hello world
